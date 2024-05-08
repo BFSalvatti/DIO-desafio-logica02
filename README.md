@@ -1,4 +1,4 @@
-#2️⃣ Ranked Match Calculator
+# 2️⃣ Ranked Match Calculator
 **What should be used**
 
 - Variables
