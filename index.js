@@ -5,17 +5,17 @@ function calculateRank(wins, losses) {
     if (wins < 10) {
         level = "Iron"
     } else if (wins >= 10 && wins <= 20) {
-        level = ("Bronze")
+        level = "Bronze"
     } else if (wins >= 21 && wins <= 50) {
-        level = ("Silver")
+        level = "Silver"
     } else if (wins >= 51 && wins <= 80) {
-        level = ("Gold")
+        level = "Gold"
     } else if (wins >= 81 && wins <= 90) {
-        level = ("Diamond")
+        level = "Diamond"
     } else if (wins >= 91 && wins <= 100) {
-        level = ("Legendary")
+        level = "Legendary"
     } else {
-        level = ("Immortal")
+        level = "Immortal"
     }
 
     return (`The Hero has a balance of ${winBalance} and is at the level of ${level}`)
